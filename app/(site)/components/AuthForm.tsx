@@ -33,6 +33,8 @@ const AuthForm = () => {
 		}
 	}, [variant]);
 
+	// TODO: add a schema object to control the resgister/login data object
+
 	const {
 		register,
 		handleSubmit,
@@ -96,7 +98,8 @@ const AuthForm = () => {
 				sm:mx-auto
 				sm:w-full
 				sm:max-w-md
-		">
+				"
+		>
 			<div
 				className="
 					bg-white
@@ -105,7 +108,8 @@ const AuthForm = () => {
 					shadow
 					sm:rounded-lg
 					sm:px-10
-			">
+					"
+			>
 				<form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
 					{variant === 'REGISTER' && (
 						<Input
@@ -147,7 +151,8 @@ const AuthForm = () => {
 								inset-0
 								flex
 								items-center
-						">
+								"
+						>
 							<div className="w-full border-t border-gray-300" />
 						</div>
 						<div
@@ -155,7 +160,9 @@ const AuthForm = () => {
 								relative
 								flex
 								justify-center
-								text-sm">
+								text-sm
+								"
+						>
 							<span className="bg-white px-2 text-gray-500">
 								Or continue with
 							</span>
@@ -185,7 +192,8 @@ const AuthForm = () => {
 						mt-6
 						px-2
 						text-gray-500
-				">
+						"
+				>
 					<div>
 						{variant === 'LOGIN'
 							? 'New to Precio?'

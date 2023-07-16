@@ -6,7 +6,8 @@
 	"endOfLine": "lf",
 	"useTabs": true,
 	"semi": true,
-	"bracketSameLine": true,
+	"bracketSameLine": false,
 	"bracketSpacing": true,
-	"printWidth": 80
+	"printWidth": 80,
+	"jsxSingleQuote": false
 }
