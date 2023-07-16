@@ -7,15 +7,6 @@
 		"semi": ["error", "always"],
 		"no-duplicate-imports": "error",
 		"no-template-curly-in-string": "warn",
-		"no-use-before-define": [
-			"error",
-			{
-				"functions": true,
-				"classes": true,
-				"variables": true,
-				"allowNamedExports": false
-			}
-		],
 		"camelcase": "error",
 		"dot-notation": "warn",
 		"comma-spacing": "warn",
