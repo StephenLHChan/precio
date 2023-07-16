@@ -10,15 +10,15 @@ const useRoutes = () => {
 		() => [
 			{
 				label: 'Scan',
-				href: '/scan',
+				href: '/home/scan',
 				icon: BsUpcScan,
-				active: pathname === '/conversations',
+				active: pathname === '/home/scan',
 			},
 			{
-				label: 'Users',
-				href: '/users',
+				label: 'Search',
+				href: '/home/search',
 				icon: BiSearchAlt,
-				active: pathname === '/users',
+				active: pathname === '/home/search',
 			},
 		],
 		[pathname]
